@@ -16,7 +16,8 @@ let Todo = new Schema({
         type: Boolean
     },
     todo_date_created: {
-        type: Date
+        type: Date,
+        default: new Date()
     }
 })
 
